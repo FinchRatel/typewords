@@ -2,10 +2,14 @@
 	margin: 0;
 	padding: 0
 }
+html {
+	height: 100%;
+}
 body {
 	background: url(images/background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
+	height: 100%;
 }
 .destroy {
 	display: none
@@ -25,7 +29,6 @@ body {
 	width: 6rem;
 	height: 3rem;
 	line-height: 2rem;
-	margin: 0.5rem;
 	color: #666;
 	border-radius: 3rem;
 	left: 0;
@@ -39,7 +42,7 @@ body {
 }
 .info ul {
 	list-style: none;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: normal;
 	font-family: Microsoft Yahei;
 	color: #666
