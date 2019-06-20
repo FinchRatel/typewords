@@ -1,57 +1,67 @@
 * {
-	margin: 0;
-	padding: 0
+  margin: 0;
+  padding: 0
 }
+
 html {
-	height: 100%;
+  height: 100%;
 }
+
 body {
-	background: url(images/background.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 100%;
+  background: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
+
 .destroy {
-	display: none
+  display: none
 }
+
 .container {
-	width: 100%;
-	position: relative
+  width: 100%;
+  position: relative
 }
+
 .container button {
-	position: absolute;
-	vertical-align: middle;
-	font-family: Microsoft Yahei;
-	font-size: 2rem;
-	font-weight: bold;
-	border: 3px solid #ccc;
-	outline: none;
-	width: 6rem;
-	height: 3rem;
-	line-height: 2rem;
-	color: #666;
-	border-radius: 3rem;
-	left: 0;
-	top:-50px;
+  position: absolute;
+  vertical-align: middle;
+  font-family: Microsoft Yahei;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 3px solid #ccc;
+  outline: none;
+  width: 6rem;
+  height: 3rem;
+  line-height: 2rem;
+  color: #666;
+  border-radius: 3rem;
+  left: 0;
+  top: 0;
 }
+
 .hidden {
-	display: none
+  display: none
 }
+
 .info {
-	position: absolute
+  position: absolute
 }
+
 .info ul {
-	list-style: none;
-	font-size: 20px;
-	font-weight: normal;
-	font-family: Microsoft Yahei;
-	color: #666
+  list-style: none;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Microsoft Yahei;
+  color: #666
 }
+
 .info ul li {
-	text-align: right
+  text-align: right
 }
+
 .info ul li span {
-	display: inline-block;
-	width: 6rem;
-	text-align: left;
+  display: inline-block;
+  width: 6rem;
+  text-align: left;
 }
